@@ -9,4 +9,4 @@ const Attraction = (props) => {
     )
 }
 
-export default Event;
+export default Attraction;
