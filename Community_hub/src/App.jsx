@@ -4,10 +4,11 @@ import Page from './components/Page'
 const App = () => {
 
   return (
-    <div className="App">
-      <Page />
+    <div>
+      <h1>Hi</h1>
     </div>
   )
+
 }
 
 export default App
