@@ -2,7 +2,7 @@
 
 Submitted by: **Joel Jose**
 
-This web app: **insert description**
+This web app: **insert descripton**
 
 Time spent: **X** hours spent in total
 
