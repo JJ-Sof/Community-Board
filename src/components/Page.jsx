@@ -1,14 +1,14 @@
 import React from "react";
+import Attraction from "./Attraction";
 
 const Page = () => {
     return (
-        <table>
+        <div className="Page">
+            <table>
                 <thead>
                     <tr>
                         <th className="day">Day</th>
-                        <th>Sunday</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
+                        <th>Georgia Aquarium</th>
                         <th>Wednesday</th>
                         <th>Thursday</th>
                         <th>Friday</th>
@@ -17,40 +17,8 @@ const Page = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td className="time">8 AM</td>
-                        <Event event = 'Fancy Dinner 🎩' color = 'green'/>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="time">9 AM</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="time">10 AM</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="time">11 AM</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>8 AM</td>
+                        <Attraction attraction='Centennial Park' color='green'/>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -58,5 +26,8 @@ const Page = () => {
                     </tr>
                 </tbody>
             </table>   
+        </div>
     )
 }
+
+export default Page;
