@@ -1,12 +1,10 @@
 import React from "react";
 
-const Event = (props) => {
-    
-
+const Attraction = (props) => {
 
     return (
-        <td className={'Event' + props.color}>
-            <h5>{props.event}</h5>
+        <td className={'Attraction' + props.color}>
+            <h5>{props.attraction}</h5>
         </td>
     )
 }
