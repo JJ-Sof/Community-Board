@@ -32,6 +32,7 @@ body {
 .white { background-color: white; }
 .orange { background-color: orange; }
 .grey { background-color: grey; }
+.gold { background-color: gold; }
 
 .attractions-container {
     display: flex;

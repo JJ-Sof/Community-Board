@@ -10,6 +10,7 @@ import GardenImage from '../assets/Garden.jpg';
 import ZooImage from '../assets/Zoo.jpg';
 import HistoryCenterImage from '../assets/HistoryCenter.jpg';
 import FBankImage from '../assets/FBank.jpg';
+import StadiumImage from '../assets/Stadium.jpg';
 
 
 const attractions = [
@@ -21,8 +22,9 @@ const attractions = [
     { id: 6, name: 'Atlanta Botanical Garden', color: 'white', image: GardenImage },
     { id: 7, name: 'Atlanta Zoo', color: 'orange', image: ZooImage },
     { id: 8, name: 'Atlanta History Center', color: 'grey', image: HistoryCenterImage },
-    { id: 9, name: 'Fernbank Museum', color: 'brown', image: FBankImage }
-  
+    { id: 9, name: 'Fernbank Museum', color: 'brown', image: FBankImage },
+    { id: 10, name: 'Mercedes-Benz Stadium', color: 'gold', image: StadiumImage }
+    
 ];
 
 const Page = () => {
