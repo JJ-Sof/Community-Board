@@ -6,36 +6,35 @@ body {
     min-height: 100vh; 
   }
   
-  th {
-    width: 120px;
-    padding-top:25px;
-    padding-bottom:30px;
-  }
-  
-  td {
-    padding: 5px;
-  }
-  
-  .time {
-    height: 40px;
-  }
-  .Event {
-    width: 100px;
-  }
-  
-  .Event h6, h5 {
-    line-height: 0px;
-    align-content: center;
-  }
-  
-  .pink {
-    background: pink;
-  }
-  
-  .blue {
-    background: rgb(190, 219, 229);
-  }
-  
-  .green {
-    background: rgb(202, 245, 222);
-  }
+.Attraction-card {
+  width: 200px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+}
+
+.Attraction-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.green { background-color: green; }
+.blue { background-color: blue; }
+.red { background-color: red; }
+.black { background-color: black; }
+.brown { background-color: brown; }
+.yellow { background-color: yellow; }
+.white { background-color: white; }
+.orange { background-color: orange; }
+.grey { background-color: grey; }
+
+.attractions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
