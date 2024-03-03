@@ -2,6 +2,7 @@ import React from "react";
 import Attraction from "./Attraction";
 
 import ParkImage from '../assets/Park.jpg';
+import AquariumImage from '../assets/Aquarium.jpg';
 import ColaImage from '../assets/CocaCola.jpg';
 import CNNImage from '../assets/CNN.jpg';
 import MuseumImage from '../assets/Museum.jpg';
@@ -11,10 +12,9 @@ import HistoryCenterImage from '../assets/HistoryCenter.jpg';
 import FBankImage from '../assets/FBank.jpg';
 
 
-// Example list of attractions
 const attractions = [
     { id: 1, name: 'Centennial Park', color: 'green', image: ParkImage },
-    { id: 2, name: 'Georgia Aquarium', color: 'blue', image: '/Aquarium.jpg' },
+    { id: 2, name: 'Georgia Aquarium', color: 'blue', image: AquariumImage },
     { id: 3, name: 'World of Coca-Cola', color: 'red', image: ColaImage },
     { id: 4, name: 'CNN Studio', color: 'violet', image: CNNImage },
     { id: 5, name: 'Atlanta Civil Rights Museum', color: 'yellow', image: MuseumImage },
